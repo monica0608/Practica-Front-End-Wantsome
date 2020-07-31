@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My first page</title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Lato&family=Open+Sans&family=Raleway&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <h1 class="titlu">HTML Elements and Attributes - Tema</h1>
+    <p> 1. Afisati-va numele intr-o pagina web folosind culoarea verde </p>
+    <p style="color:green;"> <strong>Monica Ursu </strong> </p> <br>
+    <br>
+
+    <p class="p1">
+        Afisati un paragraf care sa reprezinte descrierea unei carti. Includeti numele cartii cat si autorul acesteia.
+        Numele si
+        titlul trebuie sa fie subliniate, iar adejectivele trebuie sa fie scrise ingrosat si italic
+    </p>
+
+    <p> Schimbari mici, rezultate remarcabile: <u>Atomic Habits</u> <br>
+
+        O carte extrem de <b> <i> practica si utila</i></b> <u>James Clear</u> extrage informatiile <b>
+            <i>fundamentale</i> </b> despre formarea obiceiurilor,
+        astfel ca tu sa poti realiza mai mult concentrandu-te pe mai putine lucruri.
+
+    </p><b>2.Afisati-va numele intr-o pagina web astfel: fiecare litera trebuie sa fie un heading de marime diferita
+    </b></p>
+    
+    
+
+    <p class="p2"><b>3.Afisati un titlu folosind h1 urmat de o linie orizontala cu latimea 100%. Sub aceasta linie trebuie afisat
+            un
+            paragraf al
+            carui continut are legatura cu titlul ales.</b></p>
+    <br>
+    <h1>Learning Skills</h1>
+    <hr>
+    <p class="p3">Much has been said and written about the importance of learning. But what does it really mean?
+
+        At its most basic, it means being open to new experiences and ideas, and allowing ourselves to grow from what we
+        encounter in the world.
+
+        Children are like little sponges. They learn from everything that they encounter, whether mud, toys, books or
+        people. Everything is an opportunity for experimentation and therefore for learning.
+
+        As adults, it can be hard to remember and recapture that excitement about the world but that is what is needed
+        for successful learning.
+    </p>
+
+    <p><b>Creati o lista de link-uri catre diferite site-uri preferate. Cel putin doua din link-uri trebuie sa se
+            deschida in fereastra
+            separata.</b></p>
+    <ul>Lista link-uri preferate</ul>
+    <li> Fav site <a href="https://www.google.ro/"> Google </a></li>
+    <li> Another one <a href="https://www.skillsyouneed.com/" target="_blank"> Skills you need </a></li>
+    <li>All time favorite <a href="https://www.momondo.ro/" target="_blank"> Plane ticket </a></li>
+
+    <br>
+    <p><b>Afisati 5 imagini diferite. Fiecare imagine trebuie sa fie separata de doua linii invizibile. Fiecare imagine
+            trebuie sa fie
+            precedata de un titlu. A treia imagine trebuie sa aiba dimensiunile 200x200 cu o bordura de marimea 2 si un
+            text
+            alternativ care sa descrie ce reprezinta aceasta</b></p>
+
+   
+    <br>
+    <br>
+    <p><b> 6.Afisati o imagine care reprezinta un link catre ea insasi si va afisa imaginea originala intr-un tab
+            nou.</b></p>
+
+    
+    <h1 class="tema2"> Tema 2 </h1>
+    <p>Creati un formular HTML care sa includa urmatoarele campuri: Nume, Prenume, Sex, Varsta, Tara, Oras, Adresa, Cod
+        postal, E-mail, Mesaj, Atasare CV, Buton de trimitere si Buton de resetare. Numele, prenumele si e-mail-ul sunt
+        campuri
+        obligatorii. Varsta trebuie sa fie cuprinsa intre 18 si 85 de ani. Setati o valoare initiala pentru cel putin 3
+        dintre campuri.
+    </p>
+    <form>
+        <label>Nume</label> <br>
+        <input type="text" name="Nume" required> <br>
+        <label>Prenume</label> <br>
+        <input type="text" name="Prenume" required> <br>
+
+
+        <label>Sex</label>
+        <input type="radio" name="Sex" value="Masculin"> Masculin
+        <input type="radio" name="Sex" value="Masculin"> Feminin
+        <input type="radio" name="Sex" value="Masculin"> Altele
+        <br>
+
+        <label>Varsta</label>
+        <input type="number" name="Varsta" min="18" max="85"> <br>
+
+        <label> Tara</label>
+        <input type="text" name="Tara">
+
+        <label>Oras</label>
+        <select>
+            <option value="Iasi">Iasi </option>
+            <option value="Bucuresti">Bucuresti </option>
+            <option value="Cluj"> Cluj </option>
+        </select> <br>
+        <br>
+
+        <label>Adresa</label>
+        <input type="text" name="Adresa">
+
+        <label>Cod Postal</label>
+        <input type="number" name="Cod Postal"> <br>
+        <br>
+        <label>Email</label>
+        <input type="email" name="E-mail" required>
+        <br>
+        <br>
+
+        <textarea name="Mesaj" rows="10" cols="35" class="mesaj"> Te rugam sa scrii aici mesajul tau</textarea>
+        <br>
+        <label>Atasare CV</label>
+        <input type="file" name="Atasare CV">
+        <br>
+        <br>
+
+        <input type="Button" value="Submit">
+        <input type="Button" value="Reset">
+
+    </form>
+    <h2>Exercitiul 2</h2>
+    <p>
+        <b>Creati structura HTML pentru urmatorul formular </b>
+    </p>
+    <b> Travel reservation form</b>
+    <br>
+    <br>
+    <b>*denotes mantatory</b>
+    <br>
+    <br>
+
+<div>
+        <forms>
+        <label>Full Name*:</label>
+        <br>
+        <input type="Text" placeholder="FirstName LastName" required> <br>
+        <label>Email Address*:</label><br>
+        <input type="email" placeholder="EMAIL ADDRESS" required> <br>
+        <label>Select your tour Package*:</label> <br>
+        <select name="Goa">
+            <option value="Goa"> Goa</option>
+            <option value="Goa"> Bali</option>
+            <option value="Goa"> Cuba</option>
+            <option value="Goa"> Aruba</option>
+        </select>
+        <br>
+        <label> Arrival date*:</label> <br>
+        <input type="date" name="Arrival date">
+        <br>
+        <label>Number of persons*:</label> <br>
+        <input type="number" name="UNKOWN_TYPE">
+        <br>
+        <label>What would you like to avail?*:</label><br>
+        <input type="checkbox" name="Option1" value="Boarding"> Boarding <br>
+        <input type="checkbox" name="Option1" value="Fooding"> Fooding <br>
+        <input type="checkbox" name="Option1" value="Sight Seeing"> Sight Seeing <br>
+        <label>Discount Coupon Code:</label> <br>
+        <input type="text" name="Discount Code" placeholder="UNKNOWN_TYPE">
+        <br>
+
+
+        <label> I agree with terms and conditions: </label> <br>
+        <input type="radio" name="I agree" value="I agree">
+        <label for="I agree">I agree</label><br>
+        <input type="radio" name="I agree" value="I agree">
+        <label for="I disagree">I disagree</label><br>
+
+        <input type="button" value="Complete reservation" class="complete">
+        <br>
+        <br>
+        </form>
+
+        <p>
+        <h2>Exercitiul 3 </h2>
+        </p>
+        <form>
+            <label> Search for: </label> <br>
+            <input type="search" value="Chocolate cheesecake recipes" >
+            <input type="button" value="Search" class="search"> <br>
+
+            <input type="radio" id="Any word" name="Any word" value="Any word">
+            <label for="Any word">Any word</label>
+            <input type="radio" id="All words" name="All words" value="All words" checked>
+            <label for="All words">All words</label>
+            <input type="radio" id="Exact words" name="Exact Words" value="Exact Words">
+            <label for="Exact Words">Exact Words</label> <br>
+            <input type="checkbox" id="Sound-alike matching" name="Sound-alike matching" checked> Sound-alike matching
+            <br>
+            <label> Dated</label>
+            <input type="radio" name="Dated">
+            <select name="Within the last year"> Within the last year
+                <option>Within the last year</option> <br>
+                <br>
+                <input type="radio" name="date" checked>
+            </select>
+            <label>From</label> <br>
+            <select name="September">
+                <option value="Month" selected>September</option>
+                <option value="Month">October</option>
+                <option value="Month">November</option>
+            </select>
+            <label></label>
+            <select name="day">
+                <option value="8">8 </option>
+                <option value="7">7</option>
+            </select>
+            <input type="number" value="2009">
+            <br>
+            <label>Within</label>
+            <select name="Description">
+                <option value="Description" selected> Description</option>
+            </select> <br>
+            <label>Show</label>
+            <select name="number">
+                <option value="10">10 </option>
+            </select>
+            <label>with</label>
+            <select name="with">
+                <option value="with" selected></option>
+            </select>
+            summaries <br>
+
+            <label>Sort by</label>
+            <select name="relevance">
+                <option value="relevance">Relevance</option>
+            </select>
+            
+            
+        </form>
+    </div>
+        <br>
+        <p>Exercitiul 2 Tema 2</p>
+        <form>
+            <label>My feedback form</label> <br>
+            <ul>
+                <li>Name <input type="text"></li>
+                <li>Email <input type="email"></li>
+                <li>Password <input type="password"></li>
+                <br>
+                <li>Please check all the emotions that apply to you</li>
+                <ul>
+                    <li>Angry <input type="checkbox" checked> </li>
+                    <li>Sad <input type="checkbox"></li>
+                    <li>Happy <input type="checkbox"></li>
+                    <li>Ambivalent <input type="checkbox"></li>
+                </ul>
+                <li >How satisfied were you with our services?</li>
+                <ul>
+                    <li>Very satisfied <input type="radio" checked> </li>
+                    <li>Satisfied <input type="radio"></li>
+                    <li>Didn't care <input type="radio"></li>
+                    <li>Disatisfied <input type="radio"></li>
+                    <li>Very disatisfied <input type="radio"></li>
+                </ul>
+                <li>Further comments <textarea rows="3" col="5" class="comments"> </textarea></li>
+                <li>Bio photo <input type="text" > <input type="file" name="Choose..."></li>
+                <li>Location visited <select>
+                        <option>Selection</optoion>
+                    </select></li>
+                <li ><input type="submit"class="submit" name="submit"></li>
+            </ul>
+
+
+        </form>
+</body>
+
+</html>
