@@ -1,0 +1,78 @@
+.p1{
+    background-color:olivedrab ;
+    font-size: 23px;
+    border-radius: 10px;
+    box-sizing: content-box;
+    width: 520px;
+    height: 150px;
+    
+}
+.p2{
+    font-family: 'Dancing Script', cursive;
+    border-style: dotted;
+    border-color: orange;
+    box-sizing: content-box;
+    height: 120px;
+    width: 440px;
+        
+    
+}
+.titlu{
+    text-align: center;
+    color:red;
+    font-size: 40px;
+    background-color: cyan;
+    margin:50px 35px 35px 50px;
+    
+}
+.p3{
+    background-color: palevioletred;
+    font-family: 'Dancing Script', cursive;
+    font-size: 20px;
+    border-top: cornflowerblue dotted;
+    border-bottom: solid cornflowerblue;
+    box-sizing: content-box;  
+  width: 750px;
+  height: 200px;
+  padding: 30px;  
+      
+}
+.tema2{
+    font-size: 30px;
+    color:blue;
+    background-color: coral;
+    margin-right: 1350px;
+    
+}
+.mesaj{
+    color: olive;
+    background-color: khaki;
+    font-family:'Dancing Script', cursive;
+    font-size: 25px;
+
+}
+.submit{
+    color: red;
+    font-size:20px;
+    background-color: darksalmon;
+    border-style: solid;
+    
+}
+.comments:hover{
+    background-color:yellow;
+
+}
+.complete:hover{
+    background-color: yellow;
+    font-size: 15px;
+    border-color: firebrick;
+}
+.search:hover{
+    background-color: green;
+    font-size:15px;
+}
+div{
+    background-color: lightgray;
+  color:blueviolet; 
+    font-size: 15px;
+}
