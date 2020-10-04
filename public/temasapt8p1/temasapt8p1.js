@@ -129,6 +129,4 @@ function removeDuplicate(sentenceToRemove) {
             };
 
             console.log(calculate(2, 5, "add"));
-            console.log(calculate(10, 8, "substract"));
-
-            
+            console.log(calculate(10, 8, "substract"))  

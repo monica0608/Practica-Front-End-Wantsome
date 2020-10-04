@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1> DOM </h1>
+    <button type="button" onclick="changeBg()"> Change Background </button>
+    <h1 id='my-title'> This is my title <h1>
+        <button type= "button" onclick ="changeTitleBg()">Change Title Bg</button>
+    <script>
+        const changeBg = () => {
+            document.body.style.backgroundColor = "green";
+        }
+        const changeTitleBg =() => {
+            const h1=document.getElementById('my-title');
+            h1.style.color = "white";
+            h1.style.background ="red";
+            console.log(h1)
+        }
+     </script>
+</body>
+</html>
