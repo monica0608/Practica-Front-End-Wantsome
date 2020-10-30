@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Get Site 42!</title>
+        <link rel="stylesheet" href="tema10.css">
+    </head>
+    <body>
+        <div class="container">
+        <div class="mainTop">
+            <h1>Get your own Site 42 account in seconds</h1>
+        </div>
+        <div class="mainForm">
+            <form id="myForm" >
+                <label id="userNameError" class="reorder"><strong>USERNAME:</strong></label>
+                <label id="userError" class="errorDisplay" >Please enter a valid Username</label>
+                <input type="text" name="userName" id="userName" class="inputType" >
+                <label  class="explanation">(Must be at least 4 characters,letters and numbers only.)</label>
+                <label id="emailAddressError" class="reorder" ><Strong>EMAIL  ADDRESS:</Strong></label>
+                <label id="emailError" class="errorDisplay">Please enter a valid EmailAddress</label>
+                <input type="text" name="emailAddress" id="emailAddress" class="inputType" >
+                <label  class="explanation">We send you registration email to this address.(Double-check your email address before continuing.)</label>
+                <label class="reorder"><Strong>FIRST NAME:</Strong></label>
+                <label id="firstError" class="errorDisplay">Please enter a valid First Name</label>
+                <input type="text" name="first" id="firstName" class="inputType" >
+                <label class="explanation">(Must be input.)</label>
+                <label class="reorder"><strong>LAST NAME:</strong></label>
+                <label id="lastError" class="errorDisplay">Please enter a valid Last Name</label>
+                <input type="text" name="lastName" id="lastName" class="inputType">
+                <label class="explanation">(Must be input.)</label>
+                <label class="reorder"><strong>NICKNAME:</strong></label>
+                <label id="nickError" class="errorDisplay">No empty Nick allowed</label>
+                <input type="text" name="nickname" id="nickName" class="inputType" >
+                <label class="reorder"><strong>PHONE:</strong></label>
+                <label id="phoneError" class="errorDisplay">Please enter a valid Phone number</label>
+                <input type="number" id="numberTelephone" class="inputType">
+                <label class="explanation">(Must be at least 10 characters, numbers only.)</label>
+                <div>
+                <input type="radio" name="selectPref" id="radioButton" value="GiveMeASite" checked>
+                <label class="usernameText" ><strong>GIMME A SITE!</strong></label></div>
+                <input type="radio" name="selectPref" value="User" id="radioButton">
+                <label class="usernameText"><strong>JUST A USERNAME, PLEASE.</strong></label>
+                <button type="submit" class="submit">NEXT</button>
+            </form>
+        </div>
+    </div>
+    </body>
+    <script src=tema10.js></script>
+</html>

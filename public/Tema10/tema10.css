@@ -1,0 +1,107 @@
+.container {
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    margin: 5%;
+    padding: 0;
+    color: #666161;
+  }
+  
+  h1 {
+    text-align: left;
+    font-size: 120%;
+    color: black;
+    margin-bottom: 10%;
+  }
+  
+  label {
+    font-size: 11px;
+  }
+  
+  .reorder {
+    display: block;
+  }
+  
+  .submit {
+    width: 95%;
+    height: 50px;
+    text-align: center;
+    background-color: black;
+    color: blanchedalmond;
+    font-size: 20px;
+    margin-top: 5%;
+  }
+  
+  #nickName {
+    margin-bottom: 5%;
+  }
+  
+  #phoneNumber {
+    margin-bottom: 5%;
+  }
+  
+  .explanation {
+    display: block;
+    margin-bottom: 5%;
+    padding-right: 2%;
+  }
+  
+  input {
+    background-color: #e0e0e0;
+    border: none;
+    font-size: 200%;
+  }
+  
+  .inputType {
+    width: 90%;
+    height: 3.5rem;
+  }
+  
+  .userameText {
+    font-size: 25px;
+  }
+  
+  .errorDisplay {
+    display: none;
+    border: 2px solid red;
+    width: 90%;
+    height: 3.5rem;
+    font-size: 200%;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    text-align: left;
+    margin: 1.5% 0;
+    padding: 0.2% 0;
+    background-color: rgba(248, 192, 192, 0.2);
+  }
+  
+  @media only screen and (min-width: 1000px) {
+    .mainForm {
+      width: 400px;
+      height: 300px;
+    }
+    .submit {
+      height: 30px;
+    }
+    input {
+      font-size: 100%;
+    }
+    .inputType {
+      height: 1.7rem;
+    }
+    .errorDisplay {
+      height: 1.7rem;
+      font-size: 100%;
+    }
+    .explanation {
+      margin-bottom: 3%;
+    }
+    h1 {
+      margin-bottom: 2%;
+      font-size: 110%;
+    }
+  }
